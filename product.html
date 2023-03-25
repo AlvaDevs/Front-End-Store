@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Store</title>
+
+    <!--! Normalize -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!--! Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!--! CSS -->
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img class="header__logo" src="./img/logo.png" alt="logotype">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link" href="./index.html">Shop</a>
+        <a class="nav__link" href="./about-us.html">About us</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+
+        <div class="shirt">
+            <img src="./img/3.jpg" alt="Product Img" class="shirt__img">
+
+            <div class="shirt__content">
+                <p>Maecenas efficitur eget velit interdum malesuada. Cras ultricies commodo eros, quis cursus lacus placerat a. Proin id enim sapien. Donec vel quam quis sapien porta cursus. Nunc molestie dui et magna interdum.</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>-- Choose size --</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="amount" min="1">
+                    <input class="form__submit" type="submit" value="Add to cart">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front-End Store - All rights reserved 2023.</p>
+    </footer>
+</body>
+</html>
